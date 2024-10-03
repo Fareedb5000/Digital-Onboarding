@@ -20,7 +20,7 @@
     "react-signature-canvas": "^1.0.6",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
-    "homepage": "https://Fareedb5000.github.io/Digital-Onboarding"
+    "homepage": "https://fareedb5000.github.io/Digital-Onboarding"
   },
   "scripts": {
     "start": "react-scripts start",
