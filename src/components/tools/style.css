@@ -1,0 +1,39 @@
+
+
+.button-frame {
+    align-items: center;
+    border-radius: 20px;
+    display: inline-flex;
+    gap: 5px;
+    padding: 2px 3px;
+    position: relative;
+    left: -67px;
+   }
+   .button-frame .cool-icons {
+    flex: 0 0 auto;
+    position: relative;
+   }
+   .button-frame .rectangle {
+    background-color: #ffffff99;
+    border-radius: 5px;
+    height: 7px;
+    position: relative;
+    width: 28px;
+   }
+   
+
+
+
+
+
+box {
+ height: 92px;
+ width: 92px;
+}
+.box .ellipse {
+ height: 92px;
+ left: 0;
+ position: fixed;
+ top: 0;
+ width: 92px;
+}

@@ -1,0 +1,112 @@
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 50px; /* Adjust as needed */
+  margin-left: -30px;
+}
+
+.fxemoji-bolt {
+  height: 50px;
+  left: 115px;
+  position: absolute;
+  top: 615px;
+  width: 35px;
+  background-color: transparent
+}
+.banking-button {
+  background: linear-gradient(180deg, #60088C 0%, #A11E90 100%);
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Gotham", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  text-align: center;
+  width: 200px; /* Adjust width as needed */
+  line-height: 50px; /* Center text vertically */
+  transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.banking-button:hover {
+  background: linear-gradient(180deg, #A11E90 0%, #60088C 100%);
+}
+
+.banking-button.business {
+  background: linear-gradient(180deg, #FFB81C 0%, #5C068C 100%);
+}
+
+.banking-button.business:hover {
+  background: linear-gradient(180deg, #5C068C 0%, #FFB81C 100%);
+}
+
+.section-heading {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  width: 540px;
+}
+
+.section-title {
+  color: #5c068c;
+  font-family: "Gotham-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 64px;
+  margin-top: -1px;
+  position: relative;
+  width: 540px;
+  margin-left: -20px;
+  padding-left: 10px;
+}
+
+.description {
+  align-self: stretch;
+  color: var(--text-gray-900);
+  font-family: "Gotham", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: relative;
+  text-align: center;
+}
+
+.playa {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 554px;
+  font-weight: 400;
+  width: 500px;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../../Gotham-Font/Gotham-Light.otf') format('otf'),
+      
+       url('../../../Gotham-Font/GothamLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../../Gotham-Font/Gotham-Light.otf') format('otf'),
+      
+       url('../../../Gotham-Font/GothamLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
